@@ -8,7 +8,7 @@
         "vscode"
     ],
     "shutdownAction": "stopCompose",
-    "postCreateCommand": "go mod download && go mod tidy",
+    "postCreateCommand": "apt update && apt install -y vim && go mod download && go mod tidy",
     "workspaceFolder": "/workspace",
     "customizations": {
         "vscode": {
